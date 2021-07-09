@@ -8,6 +8,7 @@ namespace FilmesAPI.Models
 {
     public class Filme
     {
+        public int Id { get; set; }
         [Required(ErrorMessage = "O campo título não pode ser vazio")]
         public string Titulo { get; set; }
         [Required(ErrorMessage = "O campo diretor não pode ser vazio")]
